@@ -93,6 +93,9 @@ const animal = {
     },
 };
 
+
+
+
 /* Array
 JS에선 array도 객체
 배열 요소의 타입이 고정되어 있지 않음 -> 같은 배열에 있는 요소끼리 타입이 다를 수도 있음
@@ -117,3 +120,50 @@ function someAwesomeFunction(parameters) {
     // 함수 본문
 }
 someAwesomeFunction
+
+
+/* 함수의 생성과 실행 - 함수 선언식 vs 함수 표현식
+
+함수 표현식(화살표 함수)
+- 호이스팅에 영향을 받지 않음
+- 함수를 변수에 할당 <- 일급 객체
+
+const funcName = function(parameters) {
+    // logic
+}
+funcName(params);
+
+*/
+
+/* JSON(JavaScript Object Notation)
+- 자바스크립트 객체 표현식
+- 키와 값로 구성된 프로퍼티의 정렬되지 않은 집합
+- 경량의 Data 교환 형식
+- 클라이언트와 통신 시 주로 사용
+-> Content Type: application/json */
+
+
+
+
+
+/* 객체 선언
+const jsonObj = {
+    key: value,
+    key2: vaklue2
+}
+
+객체 접근
+jsonObj.key // value
+jsonObj['key2'] // value2
+
+const jsonArr = [
+    { key1: value1, key2: value2},
+    { key1: value3, key2: value4},
+    { key1: value5, key2: value6},
+
+]
+
+jsonArr[index].key;
+jsonArr[index]['key2'];
+
+*/
