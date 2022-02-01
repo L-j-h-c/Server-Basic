@@ -20,7 +20,7 @@ console.log("variableAlloc", variableAlloc);
 
 // 범위 실습
 
-// 펑션 스코프 : 유호 범위가 함수 범위 내여서 밖으로 나가지 못함. 전역 함수 외부에서 생성한 변수는 전역 변수
+// 펑션 스코프 : 유효 범위가 함수 범위 내여서 밖으로 나가지 못함. 전역 함수 외부에서 생성한 변수는 전역 변수
 // 블록 스코프 : 함수 스코프 대신 블록 스코프를 사용하여 호이스팅같은 문제를 해결할 수 있음
 
 /* var은 function scope를 가져서 if문 안에 있어도 밖에서 접근 가능, const와 let은 Block Scope 범위를 가져서
@@ -93,9 +93,6 @@ const animal = {
     },
 };
 
-
-
-
 /* Array
 JS에선 array도 객체
 배열 요소의 타입이 고정되어 있지 않음 -> 같은 배열에 있는 요소끼리 타입이 다를 수도 있음
@@ -141,10 +138,6 @@ funcName(params);
 - 경량의 Data 교환 형식
 - 클라이언트와 통신 시 주로 사용
 -> Content Type: application/json */
-
-
-
-
 
 /* 객체 선언
 const jsonObj = {
